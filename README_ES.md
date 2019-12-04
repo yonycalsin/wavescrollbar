@@ -8,6 +8,7 @@
 <p align="center">
 🚀 Wavescrollbar 🌐 es una libreria de javascript, que agrega barra de progreso moderno en la parte superior.
 </p>
+
 <p align="center" style="max-width: 450px; margin: auto;">
    <a href="https://github.com/yonicb/wavescrollbar"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
    <a href="https://www.npmjs.com/wavescrollbar" target="_blank">
