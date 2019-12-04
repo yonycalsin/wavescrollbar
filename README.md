@@ -91,7 +91,7 @@ Add the javascript and css file to make it work properly!
 <script src="js/wavescrollbar.js"></script>
 ```
 
-## 📝 Caracteristicas
+## 📝 Features
 
 | N°  | Method                 | Parameter |
 | --- | ---------------------- | --------- |
