@@ -24,6 +24,8 @@
    <img src="https://img.shields.io/twitter/follow/yonicalsin.svg?style=social&label=Follow"></a>
 </p>
 
+## [🌍 English guide](README.md)
+
 ## 🌐 Descripcion
 
 <p>
