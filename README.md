@@ -1,6 +1,5 @@
 <p align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <a href="https://github.com/yonicb/wavescrollbar" target="blank"><img src="https://i.ibb.co/0KhDcfW/ezgif-1-368d1a644eb7.png" width="120" alt="Wavescrollbar Logo" /></a>
 </p>
@@ -8,7 +7,9 @@
 <p align="center">
 🚀 Wavescrollbar 🌐 is a javascript library, which adds modern progress bar at the top.
 </p>
+
 <p align="center" style="max-width: 450px; margin: auto;">
+   <a href="https://github.com/yonicb/wavescrollbar"><img src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square" /></a>
    <a href="https://github.com/yonicb/wavescrollbar"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
    <a href="https://www.npmjs.com/wavescrollbar" target="_blank">
    <img src="https://img.shields.io/npm/v/wavescrollbar" alt="NPM Version" /></a>
