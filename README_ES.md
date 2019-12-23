@@ -198,12 +198,12 @@ Wavescrollbar es un proyecto de código abierto con licencia del [MIT](LICENSE).
 
 ## 🎩 Mantente en contacto
 
-* Author [Yoni Calsin](https://github.com/yonicb)
+* Autor [Yoni Calsin](https://github.com/yonicb)
 * Twitter [Yoni Calsin](https://twitter.com/yonicalsin)
 
 ## 📜 Licencia
 
-Wavescrollbar is [MIT licensed](LICENSE).
+Wavescrollbar tiene [MIT licensed](LICENSE).
 
 [2]: https://github.com/yonicb
 [1]: https://github.com/yonicb/wavescrollbar
