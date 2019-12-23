@@ -1,6 +1,6 @@
 {
-   "name": "Wavescrollbar",
-   "version": "1.0.0",
+   "name": "wavescrollbar",
+   "version": "1.0.2",
    "description": "🚀 Wavescrollbar 🌐 is a javascript library, which adds modern progress bar at the top.",
    "main": "dist/js/wavescrollbar.js",
    "types": "index.d.ts",
@@ -8,13 +8,6 @@
       "sass": "node-sass --watch src/scss -o dist/css --output-style expanded",
       "tsc": "tsc -w"
    },
-   "contributors": [
-      {
-         "name": "Yoni Calsin",
-         "url": "https://github.com/yonicb",
-         "githubUsername": "yonicb"
-      }
-   ],
    "keywords": [
       "scrollbar",
       "progressbar",

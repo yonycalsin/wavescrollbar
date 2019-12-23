@@ -1,6 +1,3 @@
-[2]: https://github.com/yonicb
-[1]: https://github.com/yonicb/wavescrollbar
-
 <p align="center">
   <a href="https://github.com/yonicb/wavescrollbar" target="blank"><img src="https://i.ibb.co/0KhDcfW/ezgif-1-368d1a644eb7.png" width="120" alt="Wavescrollbar Logo" /></a>
 </p>
@@ -203,6 +200,3 @@ Wavescrollbar is an open source project licensed by [MIT](LICENSE). You can grow
 ## 📜 License
 
 Wavescrollbar is [MIT licensed](LICENSE).
-
-[2]: https://github.com/yonicb
-[1]: https://github.com/yonicb/wavescrollbar
