@@ -16,7 +16,19 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/58490737?v=4",
       "profile": "https://twitter.com/yonicalsin",
       "contributions": [
-        "code"
+        "code",
+        "bug",
+        "blog",
+        "talk"
+      ]
+    },
+    {
+      "login": "YoniCalsin",
+      "name": "Yoni Stack",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/57115324?v=4",
+      "profile": "https://github.com/YoniCalsin",
+      "contributions": [
+        "doc"
       ]
     }
   ],
