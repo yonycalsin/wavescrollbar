@@ -39,12 +39,11 @@ Wavescrollbar is a library to create a modern, efficient and scalable scroll bar
 
 <p>Wavescrollbar aims to provide a ready-to-use application architecture that allows effortless creation of applications with progress bar at the top, and highly verifiable, scalable, poorly coupled and easy to maintain.</p>
 
-
 ## 📦 Installation
 
 To start using Wavescrollbar you need to install it with the package manager npm or yarn, as shown in the next section or download it directly!
 
-``` ts
+```ts
 // To install using npm
 npm install wavescrollbar -S
 
@@ -53,6 +52,7 @@ yarn add wavescrollbar
 ```
 
 <!-- ## Getting started -->
+
 ## ▶️ Getting started
 
 <p>
@@ -60,33 +60,33 @@ yarn add wavescrollbar
 </p>
 
 ### HTML
-``` html
+
+```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Wavescrollbar</title>
-   <link rel="stylesheet" href="css/wavescrollbar.css">
-</head>
-<body>
-   <wavescrollbar>
-   </wavescrollbar>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Wavescrollbar</title>
+      <link rel="stylesheet" href="css/wavescrollbar.css" />
+   </head>
+   <body>
+      <wavescrollbar> </wavescrollbar>
 
-   <script src="js/wavescrollbar.js"></script>
-   <script>
-      var wavescrollbar = new Wavescrollbar()
-   </script>
-</body>
+      <script src="js/wavescrollbar.js"></script>
+      <script>
+         var wavescrollbar = new Wavescrollbar();
+      </script>
+   </body>
 </html>
 ```
 
 Add the javascript and css file to make it work properly!
 
-``` html
+```html
 <!-- Import the CSS file -->
-<link rel="stylesheet" href="css/wavescrollbar.css">
+<link rel="stylesheet" href="css/wavescrollbar.css" />
 
 <!-- Import the javascript file -->
 <script src="js/wavescrollbar.js"></script>
@@ -104,26 +104,32 @@ Add the javascript and css file to make it work properly!
 | 6   | setHeight              | value     |
 
 #### 📚 Method setAnimation
+
 Example:
+
 ```js
 // We instantiate the animation method
-wavescrollbar.setAnimation() //It does not need parameters.
+wavescrollbar.setAnimation(); //It does not need parameters.
 ```
 
 #### 📚 Method setContainerBackground
+
 Example:
-``` js
+
+```js
 /**
  * @param color
  * */
-// 
+//
 // Default-> #eeeeee
-const color = "#eafbea"
-wavescrollbar.setContainerBackground(color)
+const color = '#eafbea';
+wavescrollbar.setContainerBackground(color);
 ```
 
 #### 📚 Method setGradient
+
 Example:
+
 ```js
 /**
  * @param options: object
@@ -131,31 +137,30 @@ Example:
 
 const options = {
    // default-> 90deg
-   angle: "45deg", // 0deg - 360deg
+   angle: '45deg', // 0deg - 360deg
    // Default-> ["#11998e", "#38ef7d"]
-   colors: [
-      "#11998e",
-      "#38ef7d",
-      "red",
-      "blue"
-   ]
-}
-wavescrollbar.setGradient(options)
+   colors: ['#11998e', '#38ef7d', 'red', 'blue'],
+};
+wavescrollbar.setGradient(options);
 ```
 
 #### 📚 Method setBackground
+
 Example:
+
 ```js
 /**
  * @param color
  * */
 // Default-> pink
-const color = "red"
-wavescrollbar.setBackground(color)
+const color = 'red';
+wavescrollbar.setBackground(color);
 ```
 
 #### 📚 Method setTransition
+
 Example:
+
 ```js
 /**
  * @param options
@@ -163,39 +168,41 @@ Example:
 
 const options = {
    // Default-> .2s
-   duration: "100ms",
+   duration: '100ms',
    // Default-> 0s
    delay: '0s',
    // Default-> linear
-   timing: "ease-in-out" // "linear" | "ease" | "ease-in" | "ease-in-out" | "ease-out"
-}
-wavescrollbar.setTransition(options)
+   timing: 'ease-in-out', // "linear" | "ease" | "ease-in" | "ease-in-out" | "ease-out"
+};
+wavescrollbar.setTransition(options);
 ```
 
 #### 📚 Method setHeight
+
 Example:
+
 ```js
 /**
  * @param value
  * */
 // Default-> 5px
-const height = "10px"
-wavescrollbar.setHeight(height)
+const height = '10px';
+wavescrollbar.setHeight(height);
 ```
 
 ## ⭐ Support for
 
 Wavescrollbar is an open source project licensed by [MIT](LICENSE). You can grow thanks to the sponsors and the support of the amazing sponsors. If you want to join them, [contact me here](mailto:helloyonicb@gmail.com).
 
-
 ## 🎩 Stay in touch
 
-* Author [Yoni Calsin](https://github.com/yonicb)
-* Twitter [Yoni Calsin](https://twitter.com/yonicalsin)
+-  Author [Yoni Calsin](https://github.com/yonicb)
+-  Twitter [Yoni Calsin](https://twitter.com/yonicalsin)
 
 ## 📜 License
 
 Wavescrollbar is [MIT licensed](LICENSE).
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -212,6 +219,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

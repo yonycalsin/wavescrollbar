@@ -11,7 +11,7 @@ interface WavescrollbarI {
 interface TransitionProps {
    readonly duration?: string;
    readonly delay?: string;
-   readonly timing?: "linear" | "ease" | "ease-in" | "ease-in-out" | "ease-out";
+   readonly timing?: 'linear' | 'ease' | 'ease-in' | 'ease-in-out' | 'ease-out';
 }
 interface GradientProps {
    readonly angle?: string;
@@ -44,4 +44,4 @@ declare class Wavescrollbar implements WavescrollbarI {
    setAnimation(): void;
 }
 
-export = Wavescrollbar
+export = Wavescrollbar;
