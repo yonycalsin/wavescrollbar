@@ -15,7 +15,7 @@ class Wavescrollbar {
          this.container = tempContainer as HTMLDivElement;
          this.container.id = '__wavescrollbar';
       } else {
-         console.error(`${el} element not found !`);
+         console.error(`${el} element not found ❌ !`);
       }
    }
    private createProgress() {
@@ -23,4 +23,19 @@ class Wavescrollbar {
       this.progress.id = '__wavescrollbar-progress';
       this.container.appendChild(this.progress);
    }
+   public init() {
+      if (!this.container) return;
+      this.createProgress();
+      this.handleScroll();
+      window.addEventListener('scroll', this.handleScroll);
+   }
+   private handleScroll = () => {
+      const de = document.documentElement;
+      const scrollTop = de.scrollTop;
+      const scrollHg = de.scrollHeight;
+      const clientHg = de.clientHeight;
+      const windowHg = scrollHg - clientHg;
+      const porcent = (scrollTop / windowHg) * 100;
+      this.progress.style.width = `${porcent}%`;
+   };
 }
